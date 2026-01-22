@@ -1,0 +1,12 @@
+# Ignore Everything
+/*
+*.log
+
+# Except for these:
+!/.gitignore
+!/Assets
+!/ProjectSettings
+!/Packages
+!/Docs
+!/.gitattributes
+Packages/packages-lock.json

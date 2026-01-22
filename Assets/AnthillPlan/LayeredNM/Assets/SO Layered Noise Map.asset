@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8a614d62cbf4e0189d82af56b3e025, type: 3}
+  m_Name: SO Layered Noise Map
+  m_EditorClassIdentifier: Assembly-CSharp::AnthillPlan.LayeredNM.SOLayeredNoiseMap
+  runtimeGraph: {fileID: 2841676755933307327, guid: 94ca11fc55731de47a582e83ef23b7eb, type: 3}
+  blackboardVariables:
+  - name: Raise Cone
+    variableKind: 
+    dataType: System.Single
+    intVal: 0
+    floatVal: 14
+  - name: Ridge Scale
+    variableKind: 
+    dataType: System.Single
+    intVal: 0
+    floatVal: 170
+  - name: Raise Ridge
+    variableKind: 
+    dataType: System.Single
+    intVal: 0
+    floatVal: 4
+  - name: Raise Perlin
+    variableKind: 
+    dataType: System.Single
+    intVal: 0
+    floatVal: 1
+  displayBbv: 1
+  errorMessage:
+    isError: 0
+    messages: []
+    message: 
+  size: {x: 200, y: 200}
+  scale: 1
+  xzScale: 1
+  yScale: 10
+  noiseSeed: 2058352247
+  newRandomSeed: 1
+  islandPrefab: {fileID: 8833339880595602756, guid: 1bc518a61274c4e3493865be16487406, type: 3}
+  unshare: 0
