@@ -9,4 +9,6 @@
 !/Packages
 !/Docs
 !/.gitattributes
+!/README.md
+!/ReadMeImage.png
 Packages/packages-lock.json
